@@ -18,8 +18,16 @@ apt install virtualenv
 virtualenv -p python3 env/
 ```
 
-#### Activate
+### Activate
 
 ```bash
 source activete env/bin/activate
+```
+
+## Unit Testing
+
+### Run test
+
+```bash
+python -m unittest <file>.py
 ```
